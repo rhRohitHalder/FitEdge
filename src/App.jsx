@@ -7,7 +7,7 @@ import HealthForm from './HealthForm';
 import Signup from './Form';
 import Signin from './Sign';
 import DietPredictor from './components/DietPredictor';
-import WorkoutSection from './components/WorkoutSection';
+import WorkoutSection from './components/WorkOutSection';
 import LeaderboardSection from './components/LeaderboardSection';
 import ProfileSection from './components/ProfileSection';
 import StatsSection from './components/StatsSection';
