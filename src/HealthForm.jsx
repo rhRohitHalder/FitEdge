@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import { useNavigate } from "react-router-dom";
 
@@ -41,7 +40,7 @@ const Healthform = () => {
                         </svg>
                     </button>
                 </div>
-                <p className="signup">Don't have an account?
+                <p className="signup">Don&apos;t have an account?
                     <a rel="noopener noreferrer" href="#">Sign up</a>
                 </p>
             </div>

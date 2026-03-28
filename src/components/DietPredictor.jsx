@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Brain, MessageSquare } from "lucide-react";
 
 // Expanded Static Dataset for Diet Prediction (Multiple Suggestions)

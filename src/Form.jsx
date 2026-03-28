@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import { useNavigate } from "react-router-dom";
 
@@ -40,7 +39,7 @@ const Signup = () => {
             </svg>
           </button>
         </div>
-        <p className="signup">Don't have an account? <a href="#">Sign up</a></p>
+        <p className="signup">Don&apos;t have an account? <a href="#">Sign up</a></p>
       </div>
     </StyledWrapper>
   );

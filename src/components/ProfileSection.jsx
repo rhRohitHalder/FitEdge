@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Settings, Award, Bell, Shield, Heart } from "lucide-react";
 
 const ProfileSection = () => {

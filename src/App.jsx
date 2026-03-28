@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { 
   Dumbbell, Trophy, Users, Activity, Crown, Coins, Brain, MessageSquare 

@@ -1,8 +1,8 @@
-import React from 'react';
 import { Play, Clock, Flame, BarChart } from 'lucide-react';
 
 // Reusable WorkoutCard Component
-const WorkoutCard = ({ title, duration, calories, difficulty, image }) => (
+/* eslint-disable react/prop-types */
+const WorkoutCard = ({ title, duration, calories, image }) => (
   <div className="bg-white/10 backdrop-blur-md rounded-xl overflow-hidden">
     <img src={image} alt={`${title} workout`} className="w-full h-48 object-cover" />
     <div className="p-4">
@@ -54,7 +54,7 @@ const WorkoutSection = () => {
     <div className="space-y-6">
       {/* Today's Recommendation */}
       <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6">
-        <h2 className="text-xl font-semibold mb-4">Today's Recommended Workout</h2>
+        <h2 className="text-xl font-semibold mb-4">Today&apos;s Recommended Workout</h2>
         <div className="relative rounded-xl overflow-hidden">
           <img
             src="https://images.unsplash.com/photo-1549060279-7e168fcee0c2?w=1200&auto=format&fit=crop"
